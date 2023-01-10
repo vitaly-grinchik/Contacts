@@ -56,15 +56,47 @@
 		D892C106296DC938005A27DA /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				D892C107296DC938005A27DA /* AppDelegate.swift */,
-				D892C109296DC938005A27DA /* SceneDelegate.swift */,
-				D892C10B296DC938005A27DA /* ViewController.swift */,
-				D892C10D296DC938005A27DA /* Main.storyboard */,
-				D892C110296DC946005A27DA /* Assets.xcassets */,
-				D892C112296DC946005A27DA /* LaunchScreen.storyboard */,
-				D892C115296DC946005A27DA /* Info.plist */,
+				D892C11D296DC999005A27DA /* App */,
+				D892C11B296DC964005A27DA /* Controllers */,
+				D892C11C296DC980005A27DA /* Storyboards */,
+				D892C11E296DC9A7005A27DA /* Resources */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D892C11B296DC964005A27DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D892C10B296DC938005A27DA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D892C11C296DC980005A27DA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D892C10D296DC938005A27DA /* Main.storyboard */,
+				D892C112296DC946005A27DA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D892C11D296DC999005A27DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D892C107296DC938005A27DA /* AppDelegate.swift */,
+				D892C109296DC938005A27DA /* SceneDelegate.swift */,
+				D892C115296DC946005A27DA /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D892C11E296DC9A7005A27DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D892C110296DC946005A27DA /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 488U3567BQ;
-				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_FILE = Contacts/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ComSys.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 488U3567BQ;
-				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_FILE = Contacts/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ComSys.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
