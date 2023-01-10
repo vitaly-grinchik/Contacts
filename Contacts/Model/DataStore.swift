@@ -79,7 +79,7 @@ extension DataStore {
 
         let numbers = subscriberNumber.map { (element) -> String in
             if element != "-" {
-                return String(Int.random(in: 0...9))
+                return "\(Int.random(in: 0...9))"
             } else {
                 return "-"
             }
