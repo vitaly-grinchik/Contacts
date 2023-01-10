@@ -6,7 +6,7 @@
 //
 
 final class DataStore {
-    let names = [
+    static let names = [
         "Oliver",
         "Jack",
         "Harry",
@@ -29,7 +29,7 @@ final class DataStore {
         "Veronica"
     ]
 
-    let surnames = [
+    static let surnames = [
         "Smith",
         "Johnson",
         "Williams",
@@ -52,14 +52,19 @@ final class DataStore {
         "Robinson"
     ]
 
-    class func getRandomEmailFor(name: String, surname: String) -> String {
-        let servers = ["gmail.com", "hotmail.com", "icloud.com", "yahoo.com"]
-        
+    static let mailServers = [
+        "gmail.com",
+        "hotmail.com",
+        "icloud.com",
+        "yahoo.com"
+    ]
+    
+    class func getRandomEmailFor(name: String, surname: String) -> String {        
         var email = name.lowercased()
         email.append(".")
         email.append(surname.lowercased())
         email.append("@")
-        email.append(servers.randomElement() ?? "gmail.com")
+        email.append(mailServers.randomElement() ?? "gmail.com")
         return email
     }
 
