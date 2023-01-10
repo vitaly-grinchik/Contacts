@@ -86,7 +86,7 @@ extension DataStore {
         }
         subscriberNumber = numbers.joined()
         
-        return "+" + countryCode + " " + operatorCode + " " + subscriberNumber
+        return "+\(countryCode) \(operatorCode) \(subscriberNumber)"
     }
     
     func createRandomPerson() -> Person {
