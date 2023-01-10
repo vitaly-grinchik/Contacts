@@ -10,11 +10,14 @@ struct Person {
     let surname: String
     let phone: String
     let email: String
-    
-    init(name: String, surname: String, phone: String, email: String) {
-        self.name = name
-        self.surname = surname
-        self.phone = phone
-        self.email = email
+      
+    static func getRandomListFor(numberOfPersons: Int) -> [Person] {
+        let dataSource = DataStore()
+        var contacts: [Person] = []
+        for _ in 1...numberOfPersons {
+            let person = dataSource.createRandomPerson()
+            contacts.append(person)
+        }
+        return contacts
     }
 }
