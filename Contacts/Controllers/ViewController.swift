@@ -9,13 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    var contactList = Person.getRandomListFor(numberOfPersons: 5)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
-
-
 }
 
