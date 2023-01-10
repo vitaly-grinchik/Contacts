@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContactsListViewController.swift
 //  Contacts
 //
 //  Created by Виталий Гринчик on 10.01.23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ContactsListViewController: UIViewController {
 
     var contactList = Person.getRandomListFor(numberOfPersons: 5)
     
