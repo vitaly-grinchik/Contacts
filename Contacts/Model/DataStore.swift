@@ -7,7 +7,7 @@
 
 final class DataStore {
 
-    static let names = [
+    private let names = [
         "Oliver",
         "Jack",
         "Harry",
@@ -30,7 +30,7 @@ final class DataStore {
         "Veronica"
     ]
 
-    static let surnames = [
+    private let surnames = [
         "Smith",
         "Johnson",
         "Williams",
@@ -53,7 +53,7 @@ final class DataStore {
         "Robinson"
     ]
 
-    static let mailServers = [
+    private let mailServers = [
         "gmail.com",
         "hotmail.com",
         "icloud.com",
@@ -63,7 +63,7 @@ final class DataStore {
 
 extension DataStore {
     
-    class func getRandomEmailFor(name: String, surname: String) -> String {        
+    private func getRandomEmailFor(name: String, surname: String) -> String {
         var email = name.lowercased()
         email.append(".")
         email.append(surname.lowercased())
@@ -72,7 +72,7 @@ extension DataStore {
         return email
     }
 
-    class func getRandomPhone() -> String {
+    private func getRandomPhone() -> String {
         let countryCode = String(Int.random(in: 1...375))
         let operatorCode = String(Int.random(in: 11...100))
         var subscriberNumber = "xxx-xx-xx"
@@ -89,7 +89,7 @@ extension DataStore {
         return "+" + countryCode + " " + operatorCode + " " + subscriberNumber
     }
     
-    class func getRandomListWith(numberOfPersons: Int) -> [Person] {
+    func getRandomListWith(numberOfPersons: Int) -> [Person] {
         var list = [Person]()
         for _ in 0..<numberOfPersons {
             let randomNameIndex = Int.random(in: 0..<names.count)
