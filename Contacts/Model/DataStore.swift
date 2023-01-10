@@ -94,14 +94,14 @@ extension DataStore {
         for _ in 0..<numberOfPersons {
             let randomNameIndex = Int.random(in: 0..<names.count)
             let randomSurnameIndex = Int.random(in: 0..<surnames.count)
-            let name = names[randomNameIndex]
-            let surname = surnames[randomSurnameIndex]
+            let randomName = names[randomNameIndex]
+            let randomSurname = surnames[randomSurnameIndex]
             
             let person = Person(
-                name: name,
-                surname: surname,
+                name: randomName,
+                surname: randomSurname,
                 phone: getRandomPhone(),
-                email: getRandomEmailFor(name: name, surname: surname)
+                email: getRandomEmailFor(name: randomName, surname: randomSurname)
             )
                 list.append(person)
         }
