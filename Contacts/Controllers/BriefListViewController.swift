@@ -9,7 +9,7 @@ import UIKit
 
 final class BriefListViewController: UITableViewController {
 
-    let contacts = StartTabBarViewController.contacts
+    var contacts: [Person]!
     
     // MARK: - UITableViewDataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

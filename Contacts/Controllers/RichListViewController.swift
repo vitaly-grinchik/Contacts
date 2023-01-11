@@ -9,7 +9,7 @@ import UIKit
 
 class RichListViewController: UITableViewController {
 
-    let contacts = StartTabBarViewController.contacts
+    var contacts: [Person]!
     
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
