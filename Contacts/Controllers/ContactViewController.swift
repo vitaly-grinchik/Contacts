@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactViewController: UIViewController {
+final class ContactViewController: UIViewController {
 
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!

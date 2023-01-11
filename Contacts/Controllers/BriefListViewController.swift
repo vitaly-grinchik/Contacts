@@ -9,12 +9,7 @@ import UIKit
 
 final class BriefListViewController: UITableViewController {
 
-    let contacts = Person.getRandomListFor(numberOfPersons: 10)
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    let contacts = StartTabBarViewController.contacts
     
     // MARK: - UITableViewDataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

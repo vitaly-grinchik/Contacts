@@ -9,27 +9,28 @@ import UIKit
 
 class RichListViewController: UITableViewController {
 
+    let contacts = StartTabBarViewController.contacts
     
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return contacts.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 2
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "richCell", for: indexPath)
+        let person = contacts[indexPath.row]
+        
+        var cellContent = cell.defaultContentConfiguration()
+        cellContent.text = person.fullName
+        cell.contentConfiguration = cellContent
+        
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
