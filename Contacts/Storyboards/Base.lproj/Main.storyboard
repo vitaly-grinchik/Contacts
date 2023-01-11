@@ -52,7 +52,7 @@
         <!--Persons List-->
         <scene sceneID="Ppx-WA-EXY">
             <objects>
-                <tableViewController id="hrt-xD-7rW" customClass="RichListViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="hrt-xD-7rW" customClass="DetailedListViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Stp-up-Qt5">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,11 +217,11 @@
             </objects>
             <point key="canvasLocation" x="-1494" y="198"/>
         </scene>
-        <!--Start Tab Bar View Controller-->
+        <!--Start Tab Bar Controller-->
         <scene sceneID="rIk-lN-gGa">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djK-xG-wxs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarController id="V95-34-Mpw" customClass="StartTabBarViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="V95-34-Mpw" customClass="StartTabBarController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2p9-J1-SZe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

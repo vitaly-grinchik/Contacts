@@ -15,9 +15,9 @@
 		D892C114296DC946005A27DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D892C112296DC946005A27DA /* LaunchScreen.storyboard */; };
 		D892C121296DCADD005A27DA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C120296DCADD005A27DA /* DataStore.swift */; };
 		D892C123296DCBC6005A27DA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C122296DCBC6005A27DA /* Person.swift */; };
-		D892C128296DFC54005A27DA /* RichListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C127296DFC54005A27DA /* RichListViewController.swift */; };
+		D892C128296DFC54005A27DA /* DetailedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C127296DFC54005A27DA /* DetailedListViewController.swift */; };
 		D892C12A296DFCE8005A27DA /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C129296DFCE8005A27DA /* ContactViewController.swift */; };
-		D892C14C296EE28A005A27DA /* StartTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C14B296EE28A005A27DA /* StartTabBarViewController.swift */; };
+		D892C14C296EE28A005A27DA /* StartTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C14B296EE28A005A27DA /* StartTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		D892C115296DC946005A27DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D892C120296DCADD005A27DA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		D892C122296DCBC6005A27DA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		D892C127296DFC54005A27DA /* RichListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichListViewController.swift; sourceTree = "<group>"; };
+		D892C127296DFC54005A27DA /* DetailedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListViewController.swift; sourceTree = "<group>"; };
 		D892C129296DFCE8005A27DA /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
-		D892C14B296EE28A005A27DA /* StartTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabBarViewController.swift; sourceTree = "<group>"; };
+		D892C14B296EE28A005A27DA /* StartTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 			children = (
 				D892C10B296DC938005A27DA /* BriefListViewController.swift */,
 				D892C129296DFCE8005A27DA /* ContactViewController.swift */,
-				D892C127296DFC54005A27DA /* RichListViewController.swift */,
-				D892C14B296EE28A005A27DA /* StartTabBarViewController.swift */,
+				D892C127296DFC54005A27DA /* DetailedListViewController.swift */,
+				D892C14B296EE28A005A27DA /* StartTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -195,9 +195,9 @@
 				D892C123296DCBC6005A27DA /* Person.swift in Sources */,
 				D892C12A296DFCE8005A27DA /* ContactViewController.swift in Sources */,
 				D892C10C296DC938005A27DA /* BriefListViewController.swift in Sources */,
-				D892C14C296EE28A005A27DA /* StartTabBarViewController.swift in Sources */,
+				D892C14C296EE28A005A27DA /* StartTabBarController.swift in Sources */,
 				D892C121296DCADD005A27DA /* DataStore.swift in Sources */,
-				D892C128296DFC54005A27DA /* RichListViewController.swift in Sources */,
+				D892C128296DFC54005A27DA /* DetailedListViewController.swift in Sources */,
 				D892C108296DC938005A27DA /* AppDelegate.swift in Sources */,
 				D892C10A296DC938005A27DA /* SceneDelegate.swift in Sources */,
 			);

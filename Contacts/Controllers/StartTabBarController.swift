@@ -1,5 +1,5 @@
 //
-//  StartTabBarViewController.swift
+//  StartTabBarController.swift
 //  Contacts
 //
 //  Created by Виталий Гринчик on 11.01.23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class StartTabBarViewController: UITabBarController {
+final class StartTabBarController: UITabBarController {
 
     private let contacts = Person.getRandomListFor(numberOfPersons: 5)
    
@@ -21,7 +21,7 @@ final class StartTabBarViewController: UITabBarController {
             if let naviVC = vc as? UINavigationController {
                 if let briefVC = naviVC.topViewController as? BriefListViewController {
                     briefVC.contacts = contacts
-                } else if let richVC = naviVC.topViewController as? RichListViewController {
+                } else if let richVC = naviVC.topViewController as? DetailedListViewController {
                     richVC.contacts = contacts
                 }
             }

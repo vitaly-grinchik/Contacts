@@ -1,5 +1,5 @@
 //
-//  RichListViewController.swift
+//  DetailedListViewController.swift
 //  Contacts
 //
 //  Created by Виталий Гринчик on 10.01.23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RichListViewController: UITableViewController {
+class DetailedListViewController: UITableViewController {
 
     var contacts: [Person]!
     
