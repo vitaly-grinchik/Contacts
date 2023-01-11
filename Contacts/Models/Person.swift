@@ -10,6 +10,10 @@ struct Person {
     let surname: String
     let phone: String
     let email: String
+    
+    var fullName: String {
+        "\(name) \(surname)"
+    }
       
     static func getRandomListFor(numberOfPersons: Int) -> [Person] {
         let dataSource = DataStore()
