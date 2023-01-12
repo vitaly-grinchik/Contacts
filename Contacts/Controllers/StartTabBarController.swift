@@ -9,7 +9,7 @@ import UIKit
 
 final class StartTabBarController: UITabBarController {
 
-    private let contacts = Person.getRandomListFor(numberOfPersons: 5)
+    private let contacts = Person.getRandomListFor(numberOfPersons: 15)
    
     override func viewDidLoad() {
         super.viewDidLoad()
