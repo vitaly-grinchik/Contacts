@@ -18,6 +18,8 @@
 		D892C128296DFC54005A27DA /* DetailedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C127296DFC54005A27DA /* DetailedListViewController.swift */; };
 		D892C12A296DFCE8005A27DA /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C129296DFCE8005A27DA /* ContactViewController.swift */; };
 		D892C14C296EE28A005A27DA /* StartTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892C14B296EE28A005A27DA /* StartTabBarController.swift */; };
+		D8A7AB21296F4D6900936A4A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7AB1F296F4D6900936A4A /* CustomTableViewCell.swift */; };
+		D8A7AB22296F4D6900936A4A /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A7AB20296F4D6900936A4A /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		D892C127296DFC54005A27DA /* DetailedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListViewController.swift; sourceTree = "<group>"; };
 		D892C129296DFCE8005A27DA /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		D892C14B296EE28A005A27DA /* StartTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabBarController.swift; sourceTree = "<group>"; };
+		D8A7AB1F296F4D6900936A4A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D8A7AB20296F4D6900936A4A /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				D892C129296DFCE8005A27DA /* ContactViewController.swift */,
 				D892C127296DFC54005A27DA /* DetailedListViewController.swift */,
 				D892C14B296EE28A005A27DA /* StartTabBarController.swift */,
+				D8A7AB1F296F4D6900936A4A /* CustomTableViewCell.swift */,
+				D8A7AB20296F4D6900936A4A /* CustomTableViewCell.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 			files = (
 				D892C114296DC946005A27DA /* LaunchScreen.storyboard in Resources */,
 				D892C111296DC946005A27DA /* Assets.xcassets in Resources */,
+				D8A7AB22296F4D6900936A4A /* CustomTableViewCell.xib in Resources */,
 				D892C10F296DC938005A27DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A7AB21296F4D6900936A4A /* CustomTableViewCell.swift in Sources */,
 				D892C123296DCBC6005A27DA /* Person.swift in Sources */,
 				D892C12A296DFCE8005A27DA /* ContactViewController.swift in Sources */,
 				D892C10C296DC938005A27DA /* BriefListViewController.swift in Sources */,
