@@ -11,7 +11,7 @@ class DetailedListViewController: UITableViewController {
 
     var contacts: [Person]!
     
-    // MARK: - Table view data source
+    // MARK: - UITableViewDataSource
     override func numberOfSections(in tableView: UITableView) -> Int {
         contacts.count
     }
