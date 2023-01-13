@@ -13,7 +13,7 @@ class DetailedListViewController: UITableViewController {
     
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return contacts.count
+        contacts.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,12 +28,12 @@ class DetailedListViewController: UITableViewController {
         if indexPath.row == 0 {
             cellContent.text = person.phone
             cellContent.image = UIImage(systemName: "phone")
-            cell.contentConfiguration = cellContent
         } else {
             cellContent.text = person.email
             cellContent.image = UIImage(systemName: "envelope")
-            cell.contentConfiguration = cellContent
         }
+        
+        cell.contentConfiguration = cellContent
         return cell
     }
 
