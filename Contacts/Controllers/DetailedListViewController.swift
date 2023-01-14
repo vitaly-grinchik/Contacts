@@ -15,11 +15,15 @@ class DetailedListViewController: UITableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         contacts.count
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 2
     }
 
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        contacts[section].fullName
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let person = contacts[indexPath.section]
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailedCell", for: indexPath)
@@ -36,8 +40,8 @@ class DetailedListViewController: UITableViewController {
         cell.contentConfiguration = cellContent
         return cell
     }
-
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        contacts[section].fullName
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
