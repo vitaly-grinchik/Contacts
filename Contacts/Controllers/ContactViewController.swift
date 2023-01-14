@@ -16,7 +16,7 @@ final class ContactViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = contact.fullName
+        title = contact.fullName    // опускаем navigationItem, т.к. свойство уже унаследовано
         phoneLabel.text = contact.phone
         emailLabel.text = contact.email
     }
