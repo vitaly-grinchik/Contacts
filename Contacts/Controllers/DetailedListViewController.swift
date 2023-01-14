@@ -11,6 +11,11 @@ class DetailedListViewController: UITableViewController {
 
     var contacts: [Person]!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.separatorStyle = .none
+    }
+    
     // MARK: - UITableViewDataSource
     override func numberOfSections(in tableView: UITableView) -> Int {
         contacts.count
