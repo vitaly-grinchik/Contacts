@@ -74,9 +74,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="Uuu-Ir-lj9" kind="show" id="dbo-2z-pzN"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -89,22 +86,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Aw-hF-SCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1584.6153846153845" y="570.85308056872032"/>
-        </scene>
-        <!--Detailed List View Controller-->
-        <scene sceneID="QFT-O7-8bx">
-            <objects>
-                <viewController id="Uuu-Ir-lj9" customClass="DetailedListViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9PS-uZ-Xxt">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="c3W-7g-4hD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="qHc-0e-ZCj"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H3j-m6-ovR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2394" y="572"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PH9-aB-evZ">
