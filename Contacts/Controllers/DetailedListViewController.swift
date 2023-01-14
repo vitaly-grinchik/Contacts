@@ -13,7 +13,10 @@ class DetailedListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.separatorStyle = .none
+//        tableView.separatorStyle = .none
+//        tableView.separatorInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 20);
+//        tableView.separatorColor = .red
+
     }
     
     // MARK: - UITableViewDataSource
